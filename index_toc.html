@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consortium Provider FAIRness Images</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fa;
+      --panel: #ffffff;
+      --text: #1f2933;
+      --muted: #52606d;
+      --border: #d9e2ec;
+      --accent: #1f4e79;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      padding: 20px 24px;
+      background: rgba(245, 247, 250, 0.96);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(8px);
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: 28px;
+      color: var(--accent);
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    nav {
+      margin-bottom: 28px;
+      padding: 18px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+    }
+
+    nav h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      color: var(--accent);
+    }
+
+    nav ul {
+      margin: 0;
+      padding-left: 18px;
+      column-width: 220px;
+      column-gap: 24px;
+    }
+
+    nav li {
+      margin-bottom: 6px;
+      break-inside: avoid;
+    }
+
+    section {
+      margin-bottom: 28px;
+      padding: 16px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      word-break: break-word;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .top-link {
+      display: inline-block;
+      margin-top: 12px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div id="page-top"></div>
+  <header>
+    <h1>DataCite Consortium Provider FAIRness</h1>
+    These data were collected during January 2026 and are described in 
+    <ul><li><a href="https://doi.org/10.59350/34brd-80j48">DataCite Bright Spots</a> and </li><li><a href="https://doi.org/10.59350/v2may-69s52">DataCite Bright Spots – Repositories, Consortia, and Improvements</a>.</li></ul>
+    <p>The data are available at <a href="https://doi.org/10.5281/zenodo.8426728">Metadata Completeness for Four FAIR Use Cases for all DataCite Repositories</a>.</p>
+    <p>The first image shows repository completeness distributions for sixty-six DataCite consortia. 
+       Subsequent images show the distribution of FAIRness scores for each consortium provider, with a vertical line indicating the reference score of 23%. The shaded area highlights the "bright spot" range from 40% to 63%, where providers are performing exceptionally well.</p>
+    <p>DataCite Consortium Provider FAIRness Images &copy; 2026 by <a href="https://metadatagamechangers.com">Metadata Game Changers</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+    <hr>
+    <p>Use the table of contents to jump to an image, or scroll through the full gallery.</p>
+  </header>
+  <main>
+    <nav>
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#consortiascoredistribution-png">ConsortiaScoreDistribution.png</a></li>
+        <li><a href="#ardc-provider-png">ardc_provider.png</a></li>
+        <li><a href="#blco-provider-png">blco_provider.png</a></li>
+        <li><a href="#cdlco-provider-png">cdlco_provider.png</a></li>
+        <li><a href="#cevl-provider-png">cevl_provider.png</a></li>
+        <li><a href="#cgqg-provider-png">cgqg_provider.png</a></li>
+        <li><a href="#clarinco-provider-png">clarinco_provider.png</a></li>
+        <li><a href="#cnpq-provider-png">cnpq_provider.png</a></li>
+        <li><a href="#cruico-provider-png">cruico_provider.png</a></li>
+        <li><a href="#cscco-provider-png">cscco_provider.png</a></li>
+        <li><a href="#daraco-provider-png">daraco_provider.png</a></li>
+        <li><a href="#dcan-provider-png">dcan_provider.png</a></li>
+        <li><a href="#deicco-provider-png">deicco_provider.png</a></li>
+        <li><a href="#delftco-provider-png">delftco_provider.png</a></li>
+        <li><a href="#doinzco-provider-png">doinzco_provider.png</a></li>
+        <li><a href="#escireco-provider-png">escireco_provider.png</a></li>
+        <li><a href="#estdoico-provider-png">estdoico_provider.png</a></li>
+        <li><a href="#ethzco-provider-png">ethzco_provider.png</a></li>
+        <li><a href="#eudatco-provider-png">eudatco_provider.png</a></li>
+        <li><a href="#fctco-provider-png">fctco_provider.png</a></li>
+        <li><a href="#fsco-provider-png">fsco_provider.png</a></li>
+        <li><a href="#gdccco-provider-png">gdccco_provider.png</a></li>
+        <li><a href="#ggbc-provider-png">ggbc_provider.png</a></li>
+        <li><a href="#hbzco-provider-png">hbzco_provider.png</a></li>
+        <li><a href="#hlco-provider-png">hlco_provider.png</a></li>
+        <li><a href="#inistco-provider-png">inistco_provider.png</a></li>
+        <li><a href="#irje-provider-png">irje_provider.png</a></li>
+        <li><a href="#irlco-provider-png">irlco_provider.png</a></li>
+        <li><a href="#jalcco-provider-png">jalcco_provider.png</a></li>
+        <li><a href="#knjf-provider-png">knjf_provider.png</a></li>
+        <li><a href="#luay-provider-png">luay_provider.png</a></li>
+        <li><a href="#lyrasis-provider-png">lyrasis_provider.png</a></li>
+        <li><a href="#mshm-provider-png">mshm_provider.png</a></li>
+        <li><a href="#mtakikco-provider-png">mtakikco_provider.png</a></li>
+        <li><a href="#nasaco-provider-png">nasaco_provider.png</a></li>
+        <li><a href="#nrct-provider-png">nrct_provider.png</a></li>
+        <li><a href="#nsql-provider-png">nsql_provider.png</a></li>
+        <li><a href="#oaem-provider-png">oaem_provider.png</a></li>
+        <li><a href="#orbisco-provider-png">orbisco_provider.png</a></li>
+        <li><a href="#ostico-provider-png">ostico_provider.png</a></li>
+        <li><a href="#pgpg-provider-png">pgpg_provider.png</a></li>
+        <li><a href="#psncco-provider-png">psncco_provider.png</a></li>
+        <li><a href="#qcqq-provider-png">qcqq_provider.png</a></li>
+        <li><a href="#radntco-provider-png">radntco_provider.png</a></li>
+        <li><a href="#rlfe-provider-png">rlfe_provider.png</a></li>
+        <li><a href="#sndco-provider-png">sndco_provider.png</a></li>
+        <li><a href="#spbpuco-provider-png">spbpuco_provider.png</a></li>
+        <li><a href="#subgoeco-provider-png">subgoeco_provider.png</a></li>
+        <li><a href="#tdlco-provider-png">tdlco_provider.png</a></li>
+        <li><a href="#teyq-provider-png">teyq_provider.png</a></li>
+        <li><a href="#tibco-provider-png">tibco_provider.png</a></li>
+        <li><a href="#tindco-provider-png">tindco_provider.png</a></li>
+        <li><a href="#tuwienco-provider-png">tuwienco_provider.png</a></li>
+        <li><a href="#txvt-provider-png">txvt_provider.png</a></li>
+        <li><a href="#uchile-provider-png">uchile_provider.png</a></li>
+        <li><a href="#unitco-provider-png">unitco_provider.png</a></li>
+        <li><a href="#up-provider-png">up_provider.png</a></li>
+        <li><a href="#usgsco-provider-png">usgsco_provider.png</a></li>
+        <li><a href="#uujz-provider-png">uujz_provider.png</a></li>
+        <li><a href="#viennaco-provider-png">viennaco_provider.png</a></li>
+        <li><a href="#vivaco-provider-png">vivaco_provider.png</a></li>
+        <li><a href="#vnsf-provider-png">vnsf_provider.png</a></li>
+        <li><a href="#xvdz-provider-png">xvdz_provider.png</a></li>
+        <li><a href="#xxgr-provider-png">xxgr_provider.png</a></li>
+        <li><a href="#yjtm-provider-png">yjtm_provider.png</a></li>
+        <li><a href="#zbmedco-provider-png">zbmedco_provider.png</a></li>
+        <li><a href="#zixd-provider-png">zixd_provider.png</a></li>
+      </ul>
+    </nav>
+
+    <section id="consortiascoredistribution-png">
+      <h2><a href="ConsortiaScoreDistributionDescendingWithBrightSpots.png">ConsortiaScoreDistributionDescendingWithBrightSpots.png</a></h2>
+      <img src="ConsortiaScoreDistributionDescendingWithBrightSpots.png" alt="ConsortiaScoreDistributionDescendingWithBrightSpots.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="ardc-provider-png">
+      <h2><a href="ardc_provider.png">ardc_provider.png</a></h2>
+      <img src="ardc_provider.png" alt="ardc_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="blco-provider-png">
+      <h2><a href="blco_provider.png">blco_provider.png</a></h2>
+      <img src="blco_provider.png" alt="blco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="cdlco-provider-png">
+      <h2><a href="cdlco_provider.png">cdlco_provider.png</a></h2>
+      <img src="cdlco_provider.png" alt="cdlco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="cevl-provider-png">
+      <h2><a href="cevl_provider.png">cevl_provider.png</a></h2>
+      <img src="cevl_provider.png" alt="cevl_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="cgqg-provider-png">
+      <h2><a href="cgqg_provider.png">cgqg_provider.png</a></h2>
+      <img src="cgqg_provider.png" alt="cgqg_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="clarinco-provider-png">
+      <h2><a href="clarinco_provider.png">clarinco_provider.png</a></h2>
+      <img src="clarinco_provider.png" alt="clarinco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="cnpq-provider-png">
+      <h2><a href="cnpq_provider.png">cnpq_provider.png</a></h2>
+      <img src="cnpq_provider.png" alt="cnpq_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="cruico-provider-png">
+      <h2><a href="cruico_provider.png">cruico_provider.png</a></h2>
+      <img src="cruico_provider.png" alt="cruico_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="cscco-provider-png">
+      <h2><a href="cscco_provider.png">cscco_provider.png</a></h2>
+      <img src="cscco_provider.png" alt="cscco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="daraco-provider-png">
+      <h2><a href="daraco_provider.png">daraco_provider.png</a></h2>
+      <img src="daraco_provider.png" alt="daraco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="dcan-provider-png">
+      <h2><a href="dcan_provider.png">dcan_provider.png</a></h2>
+      <img src="dcan_provider.png" alt="dcan_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="deicco-provider-png">
+      <h2><a href="deicco_provider.png">deicco_provider.png</a></h2>
+      <img src="deicco_provider.png" alt="deicco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="delftco-provider-png">
+      <h2><a href="delftco_provider.png">delftco_provider.png</a></h2>
+      <img src="delftco_provider.png" alt="delftco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="doinzco-provider-png">
+      <h2><a href="doinzco_provider.png">doinzco_provider.png</a></h2>
+      <img src="doinzco_provider.png" alt="doinzco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="escireco-provider-png">
+      <h2><a href="escireco_provider.png">escireco_provider.png</a></h2>
+      <img src="escireco_provider.png" alt="escireco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="estdoico-provider-png">
+      <h2><a href="estdoico_provider.png">estdoico_provider.png</a></h2>
+      <img src="estdoico_provider.png" alt="estdoico_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="ethzco-provider-png">
+      <h2><a href="ethzco_provider.png">ethzco_provider.png</a></h2>
+      <img src="ethzco_provider.png" alt="ethzco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="eudatco-provider-png">
+      <h2><a href="eudatco_provider.png">eudatco_provider.png</a></h2>
+      <img src="eudatco_provider.png" alt="eudatco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="fctco-provider-png">
+      <h2><a href="fctco_provider.png">fctco_provider.png</a></h2>
+      <img src="fctco_provider.png" alt="fctco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="fsco-provider-png">
+      <h2><a href="fsco_provider.png">fsco_provider.png</a></h2>
+      <img src="fsco_provider.png" alt="fsco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="gdccco-provider-png">
+      <h2><a href="gdccco_provider.png">gdccco_provider.png</a></h2>
+      <img src="gdccco_provider.png" alt="gdccco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="ggbc-provider-png">
+      <h2><a href="ggbc_provider.png">ggbc_provider.png</a></h2>
+      <img src="ggbc_provider.png" alt="ggbc_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="hbzco-provider-png">
+      <h2><a href="hbzco_provider.png">hbzco_provider.png</a></h2>
+      <img src="hbzco_provider.png" alt="hbzco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="hlco-provider-png">
+      <h2><a href="hlco_provider.png">hlco_provider.png</a></h2>
+      <img src="hlco_provider.png" alt="hlco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="inistco-provider-png">
+      <h2><a href="inistco_provider.png">inistco_provider.png</a></h2>
+      <img src="inistco_provider.png" alt="inistco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="irje-provider-png">
+      <h2><a href="irje_provider.png">irje_provider.png</a></h2>
+      <img src="irje_provider.png" alt="irje_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="irlco-provider-png">
+      <h2><a href="irlco_provider.png">irlco_provider.png</a></h2>
+      <img src="irlco_provider.png" alt="irlco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="jalcco-provider-png">
+      <h2><a href="jalcco_provider.png">jalcco_provider.png</a></h2>
+      <img src="jalcco_provider.png" alt="jalcco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="knjf-provider-png">
+      <h2><a href="knjf_provider.png">knjf_provider.png</a></h2>
+      <img src="knjf_provider.png" alt="knjf_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="luay-provider-png">
+      <h2><a href="luay_provider.png">luay_provider.png</a></h2>
+      <img src="luay_provider.png" alt="luay_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="lyrasis-provider-png">
+      <h2><a href="lyrasis_provider.png">lyrasis_provider.png</a></h2>
+      <img src="lyrasis_provider.png" alt="lyrasis_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="mshm-provider-png">
+      <h2><a href="mshm_provider.png">mshm_provider.png</a></h2>
+      <img src="mshm_provider.png" alt="mshm_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="mtakikco-provider-png">
+      <h2><a href="mtakikco_provider.png">mtakikco_provider.png</a></h2>
+      <img src="mtakikco_provider.png" alt="mtakikco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="nasaco-provider-png">
+      <h2><a href="nasaco_provider.png">nasaco_provider.png</a></h2>
+      <img src="nasaco_provider.png" alt="nasaco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="nrct-provider-png">
+      <h2><a href="nrct_provider.png">nrct_provider.png</a></h2>
+      <img src="nrct_provider.png" alt="nrct_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="nsql-provider-png">
+      <h2><a href="nsql_provider.png">nsql_provider.png</a></h2>
+      <img src="nsql_provider.png" alt="nsql_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="oaem-provider-png">
+      <h2><a href="oaem_provider.png">oaem_provider.png</a></h2>
+      <img src="oaem_provider.png" alt="oaem_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="orbisco-provider-png">
+      <h2><a href="orbisco_provider.png">orbisco_provider.png</a></h2>
+      <img src="orbisco_provider.png" alt="orbisco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="ostico-provider-png">
+      <h2><a href="ostico_provider.png">ostico_provider.png</a></h2>
+      <img src="ostico_provider.png" alt="ostico_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="pgpg-provider-png">
+      <h2><a href="pgpg_provider.png">pgpg_provider.png</a></h2>
+      <img src="pgpg_provider.png" alt="pgpg_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="psncco-provider-png">
+      <h2><a href="psncco_provider.png">psncco_provider.png</a></h2>
+      <img src="psncco_provider.png" alt="psncco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="qcqq-provider-png">
+      <h2><a href="qcqq_provider.png">qcqq_provider.png</a></h2>
+      <img src="qcqq_provider.png" alt="qcqq_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="radntco-provider-png">
+      <h2><a href="radntco_provider.png">radntco_provider.png</a></h2>
+      <img src="radntco_provider.png" alt="radntco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="rlfe-provider-png">
+      <h2><a href="rlfe_provider.png">rlfe_provider.png</a></h2>
+      <img src="rlfe_provider.png" alt="rlfe_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="sndco-provider-png">
+      <h2><a href="sndco_provider.png">sndco_provider.png</a></h2>
+      <img src="sndco_provider.png" alt="sndco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="spbpuco-provider-png">
+      <h2><a href="spbpuco_provider.png">spbpuco_provider.png</a></h2>
+      <img src="spbpuco_provider.png" alt="spbpuco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="subgoeco-provider-png">
+      <h2><a href="subgoeco_provider.png">subgoeco_provider.png</a></h2>
+      <img src="subgoeco_provider.png" alt="subgoeco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="tdlco-provider-png">
+      <h2><a href="tdlco_provider.png">tdlco_provider.png</a></h2>
+      <img src="tdlco_provider.png" alt="tdlco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="teyq-provider-png">
+      <h2><a href="teyq_provider.png">teyq_provider.png</a></h2>
+      <img src="teyq_provider.png" alt="teyq_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="tibco-provider-png">
+      <h2><a href="tibco_provider.png">tibco_provider.png</a></h2>
+      <img src="tibco_provider.png" alt="tibco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="tindco-provider-png">
+      <h2><a href="tindco_provider.png">tindco_provider.png</a></h2>
+      <img src="tindco_provider.png" alt="tindco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="tuwienco-provider-png">
+      <h2><a href="tuwienco_provider.png">tuwienco_provider.png</a></h2>
+      <img src="tuwienco_provider.png" alt="tuwienco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="txvt-provider-png">
+      <h2><a href="txvt_provider.png">txvt_provider.png</a></h2>
+      <img src="txvt_provider.png" alt="txvt_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="uchile-provider-png">
+      <h2><a href="uchile_provider.png">uchile_provider.png</a></h2>
+      <img src="uchile_provider.png" alt="uchile_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="unitco-provider-png">
+      <h2><a href="unitco_provider.png">unitco_provider.png</a></h2>
+      <img src="unitco_provider.png" alt="unitco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="up-provider-png">
+      <h2><a href="up_provider.png">up_provider.png</a></h2>
+      <img src="up_provider.png" alt="up_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="usgsco-provider-png">
+      <h2><a href="usgsco_provider.png">usgsco_provider.png</a></h2>
+      <img src="usgsco_provider.png" alt="usgsco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="uujz-provider-png">
+      <h2><a href="uujz_provider.png">uujz_provider.png</a></h2>
+      <img src="uujz_provider.png" alt="uujz_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="viennaco-provider-png">
+      <h2><a href="viennaco_provider.png">viennaco_provider.png</a></h2>
+      <img src="viennaco_provider.png" alt="viennaco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="vivaco-provider-png">
+      <h2><a href="vivaco_provider.png">vivaco_provider.png</a></h2>
+      <img src="vivaco_provider.png" alt="vivaco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="vnsf-provider-png">
+      <h2><a href="vnsf_provider.png">vnsf_provider.png</a></h2>
+      <img src="vnsf_provider.png" alt="vnsf_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="xvdz-provider-png">
+      <h2><a href="xvdz_provider.png">xvdz_provider.png</a></h2>
+      <img src="xvdz_provider.png" alt="xvdz_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="xxgr-provider-png">
+      <h2><a href="xxgr_provider.png">xxgr_provider.png</a></h2>
+      <img src="xxgr_provider.png" alt="xxgr_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="yjtm-provider-png">
+      <h2><a href="yjtm_provider.png">yjtm_provider.png</a></h2>
+      <img src="yjtm_provider.png" alt="yjtm_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="zbmedco-provider-png">
+      <h2><a href="zbmedco_provider.png">zbmedco_provider.png</a></h2>
+      <img src="zbmedco_provider.png" alt="zbmedco_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+    <section id="zixd-provider-png">
+      <h2><a href="zixd_provider.png">zixd_provider.png</a></h2>
+      <img src="zixd_provider.png" alt="zixd_provider.png">
+      <a class="top-link" href="#top">Back to top</a>
+    </section>
+  </main>
+  <script>
+    document.addEventListener("click", function (event) {
+      var topLink = event.target.closest("a.top-link");
+      if (!topLink) {
+        return;
+      }
+      event.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>
